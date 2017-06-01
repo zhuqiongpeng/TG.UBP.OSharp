@@ -1,7 +1,65 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF6809F3-1ABF-4A8D-88C5-F068DC71D99E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TG.UBP.Core.EntityConfiguration.SqlServer</RootNamespace>
+    <AssemblyName>TG.UBP.Core.EntityConfiguration.SqlServer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
   </PropertyGroup>
-
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseManage\Identity\OrganizationConfiguration.cs" />
+    <Compile Include="BaseManage\Identity\OrganizationConfiguration.generated.cs" />
+    <Compile Include="BaseManage\Identity\RoleConfiguration.cs" />
+    <Compile Include="BaseManage\Identity\RoleConfiguration.generated.cs" />
+    <Compile Include="BaseManage\Identity\UserClaimConfiguration.cs" />
+    <Compile Include="BaseManage\Identity\UserConfiguration.cs" />
+    <Compile Include="BaseManage\Identity\UserConfiguration.generated.cs" />
+    <Compile Include="BaseManage\Identity\UserExtendConfiguration.cs" />
+    <Compile Include="BaseManage\Identity\UserExtendConfiguration.generated.cs" />
+    <Compile Include="BaseManage\Identity\UserLoginConfiguration.cs" />
+    <Compile Include="BaseManage\Identity\UserRoleMapConfiguration.cs" />
+    <Compile Include="BaseManage\OAuth\ClientConfiguration.cs" />
+    <Compile Include="BaseManage\OAuth\ClientRefreshTokenConfiguration.cs" />
+    <Compile Include="BaseManage\OAuth\ClientSecretConfiguration.cs" />
+    <Compile Include="BaseManage\Security\EntityInfoConfiguration.cs" />
+    <Compile Include="BaseManage\Security\EntityRoleMapConfiguration.cs" />
+    <Compile Include="BaseManage\Security\EntityUserMapConfiguration.cs" />
+    <Compile Include="BaseManage\Security\FunctionConfiguration.cs" />
+    <Compile Include="BaseManage\Security\ModuleConfiguration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
