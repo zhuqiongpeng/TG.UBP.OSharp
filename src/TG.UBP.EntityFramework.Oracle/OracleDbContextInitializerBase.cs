@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OSharp.Core.Data;
+using OSharp.Data.Entity;
 
-namespace OSharp.Data.Entity.Oracle
+namespace TG.UBP.EntityFramework.Oracle
 {
     public abstract class OracleDbContextInitializerBase<TDbContext> : DbContextInitializerBase<TDbContext>
-                where TDbContext : DbContext, IUnitOfWork, new()
+                    where TDbContext : DbContext, IUnitOfWork, new()
     {
         private bool _IgnoreSchemaName = true;
         private bool _DisableQuoting = true;
@@ -95,7 +96,7 @@ namespace OSharp.Data.Entity.Oracle
 
         public OracleDbContextInitializerBase()
         {
-            if (ConfigurationManager.AppSettings["IgnoreSchemaName"] !=null)
+            if (ConfigurationManager.AppSettings["IgnoreSchemaName"] != null)
             {
                 _IgnoreSchemaName = Boolean.Parse(ConfigurationManager.AppSettings["IgnoreSchemaName"]);
             }

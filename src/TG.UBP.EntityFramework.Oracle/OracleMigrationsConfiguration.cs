@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using OSharp.Core.Data;
 using OSharp.Data.Entity.Migrations;
 
-namespace OSharp.Data.Entity.Oracle
+namespace TG.UBP.EntityFramework.Oracle
 {
     public class OracleMigrationsConfigurationWithSeedBase<TContext> : MigrationsConfigurationWithSeedBase<TContext>
         where TContext : DbContext, IUnitOfWork

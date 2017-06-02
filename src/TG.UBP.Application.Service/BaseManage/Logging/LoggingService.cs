@@ -10,10 +10,9 @@ using System;
 
 using OSharp.Core.Data;
 using OSharp.Core.Logging;
-using OSharp.Demo.Contracts;
 
 
-namespace OSharp.Demo.Services
+namespace TG.UBP.Application.Service.BaseManage.Logging
 {
     /// <summary>
     /// 业务实现——日志模块

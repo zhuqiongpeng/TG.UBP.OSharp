@@ -10,7 +10,7 @@
 using OSharp.Core.Identity.Dtos;
 
 
-namespace OSharp.Demo.Dtos.Identity
+namespace TG.UBP.Application.Dto.BaseManage.Identity
 {
     public class UserRoleMapInputDto : UserRoleMapBaseInputDto<int, int, int>
     { }

@@ -7,11 +7,10 @@
 using System;
 
 using OSharp.Data.Entity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
-using OSharp.Demo.Models.Identity;
 
-
-namespace OSharp.Demo.ModelConfigurations.Identity
+namespace TG.UBP.Core.EntityConfiguration.SqlServer.BaseManage.Identity
 {
     /// <summary>
     /// 实体类-数据表映射——Organization

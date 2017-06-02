@@ -51,9 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logging\DataLogConfiguration_Oracle.cs" />
-    <Compile Include="Logging\DataLogItemConfiguration_Oracle.cs" />
-    <Compile Include="Logging\OperateLogConfiguration_Oracle.cs" />
     <Compile Include="OracleDbContextInitializerBase.cs" />
     <Compile Include="OracleDefaultDbContextInitializer.cs" />
     <Compile Include="OracleLoggingDbContextInitializer.cs" />

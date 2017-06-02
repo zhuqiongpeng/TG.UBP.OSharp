@@ -7,11 +7,10 @@
 // -----------------------------------------------------------------------
 
 using OSharp.Core.Data;
-using OSharp.Demo.Contracts;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
 
-namespace OSharp.Demo.Services
+namespace TG.UBP.Application.Service.BaseManage.Identity
 {
     /// <summary>
     /// 业务实现——身份认证模块

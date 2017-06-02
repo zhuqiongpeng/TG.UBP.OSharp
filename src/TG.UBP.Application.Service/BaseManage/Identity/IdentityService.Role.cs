@@ -9,14 +9,13 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
-
-using OSharp.Demo.Dtos.Identity;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Application.Dto.BaseManage.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 using OSharp.Utility.Data;
 using OSharp.Utility.Extensions;
 
 
-namespace OSharp.Demo.Services
+namespace TG.UBP.Application.Service.BaseManage.Identity
 {
     public partial class IdentityService
     {

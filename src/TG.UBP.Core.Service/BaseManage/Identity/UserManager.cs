@@ -9,16 +9,14 @@
 
 using System;
 using System.Threading.Tasks;
-
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security.DataProtection;
-
 using OSharp.Core.Identity;
-using OSharp.Demo.Models.Identity;
-using OSharp.Demo.Dtos.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
+using TG.UBP.Application.Dto.BaseManage.Identity;
 
-namespace OSharp.Demo.Identity
+namespace TG.UBP.Core.Service.BaseManage.Identity
 {
     /// <summary>
     /// 用户管理器

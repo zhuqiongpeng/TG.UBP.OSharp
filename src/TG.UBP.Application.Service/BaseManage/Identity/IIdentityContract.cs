@@ -10,14 +10,12 @@ using System;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-
 using OSharp.Core.Dependency;
-using OSharp.Demo.Dtos.Identity;
-using OSharp.Demo.Models.Identity;
 using OSharp.Utility.Data;
+using TG.UBP.Core.Entity.BaseManage.Identity;
+using TG.UBP.Application.Dto.BaseManage.Identity;
 
-
-namespace OSharp.Demo.Contracts
+namespace TG.UBP.Application.Service.BaseManage.Identity
 {
     /// <summary>
     /// 业务契约——身份认证模块

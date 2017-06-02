@@ -8,10 +8,10 @@
 // -----------------------------------------------------------------------
 
 using OSharp.Data.Entity;
-using OSharp.Demo.Models.Security;
+using TG.UBP.Core.Entity.BaseManage.Security;
 
 
-namespace OSharp.Demo.ModelConfigurations.Security
+namespace TG.UBP.Core.EntityConfiguration.SqlServer.BaseManage.Security
 {
     public class ModuleConfiguration : EntityConfigurationBase<Module, int>
     {

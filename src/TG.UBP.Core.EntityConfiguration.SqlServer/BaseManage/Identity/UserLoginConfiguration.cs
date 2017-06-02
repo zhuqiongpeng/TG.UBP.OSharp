@@ -7,10 +7,10 @@
 // -----------------------------------------------------------------------
 
 using OSharp.Data.Entity;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
 
-namespace OSharp.Demo.ModelConfigurations.Identity
+namespace TG.UBP.Core.EntityConfiguration.SqlServer.BaseManage.Identity
 {
     public class UserLoginConfiguration : EntityConfigurationBase<UserLogin, int>
     {

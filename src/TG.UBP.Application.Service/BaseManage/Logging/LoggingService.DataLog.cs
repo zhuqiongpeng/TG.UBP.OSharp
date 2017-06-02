@@ -7,12 +7,11 @@
 // -----------------------------------------------------------------------
 
 using System.Linq;
-
 using OSharp.Core.Logging;
 using OSharp.Utility.Data;
 
 
-namespace OSharp.Demo.Services
+namespace TG.UBP.Application.Service.BaseManage.Logging
 {
     public partial class LoggingService
     {

@@ -10,7 +10,7 @@
 using OSharp.Core.Security.Models;
 
 
-namespace OSharp.Demo.Models.OAuth
+namespace TG.UBP.Core.Entity.BaseManage.OAuth
 {
     /// <summary>
     /// 实体类——OAuth客户端密钥信息

@@ -10,11 +10,11 @@
 using System;
 
 using OSharp.Core.Security;
-using OSharp.Demo.Models.Identity;
-using OSharp.Demo.Models.OAuth;
+using TG.UBP.Core.Entity.BaseManage.Identity;
+using TG.UBP.Core.Entity.BaseManage.OAuth;
 
 
-namespace OSharp.Demo.OAuth
+namespace TG.UBP.Core.Service.BaseManage.OAuth
 {
     /// <summary>
     /// 客户端刷新Token存储

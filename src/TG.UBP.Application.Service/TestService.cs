@@ -1,9 +1,8 @@
 ﻿using OSharp.Core.Data;
-using OSharp.Demo.Contracts;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
 
-namespace OSharp.Demo.Services
+namespace TG.UBP.Application.Service
 {
     public class TestService : ITestContract
     {

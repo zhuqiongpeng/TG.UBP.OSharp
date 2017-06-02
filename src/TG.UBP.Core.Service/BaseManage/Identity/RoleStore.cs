@@ -8,10 +8,10 @@
 // -----------------------------------------------------------------------
 
 using OSharp.Core.Identity;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
 
-namespace OSharp.Demo.Identity
+namespace TG.UBP.Core.Service.BaseManage.Identity
 {
     /// <summary>
     /// 角色存储实现

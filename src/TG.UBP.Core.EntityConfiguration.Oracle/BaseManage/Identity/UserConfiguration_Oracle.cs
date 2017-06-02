@@ -1,8 +1,8 @@
-﻿using OSharp.Demo.Models.Identity;
+﻿using TG.UBP.Core.Entity.BaseManage.Identity;
 using System;
 using OSharp.Data.Entity;
 
-namespace OSharp.Demo.ModelConfigurations_Oracle.Identity
+namespace TG.UBP.Core.EntityConfiguration.Oracle.BaseManage.Identity
 {
     public class UserConfiguration_Oracle : EntityConfigurationBase<User, Int32>
     {

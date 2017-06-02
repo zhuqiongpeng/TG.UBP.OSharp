@@ -11,7 +11,7 @@ using System;
 using OSharp.Data.Entity;
 
 
-namespace OSharp.Demo.ModelConfigurations.Identity
+namespace TG.UBP.Core.EntityConfiguration.SqlServer.BaseManage.Identity
 {
     public partial class OrganizationConfiguration
     {

@@ -11,7 +11,7 @@ using System.ComponentModel;
 using OSharp.Core.Identity.Models;
 
 
-namespace OSharp.Demo.Models.Identity
+namespace TG.UBP.Core.Entity.BaseManage.Identity
 {
     /// <summary>
     /// 实体类——用户第三方登录（OAuth，如facebook,google）信息

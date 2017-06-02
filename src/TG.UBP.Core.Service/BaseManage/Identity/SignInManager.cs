@@ -10,12 +10,11 @@
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-
 using OSharp.Core.Dependency;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
 
-namespace OSharp.Demo.Identity
+namespace TG.UBP.Core.Service.BaseManage.Identity
 {
     /// <summary>
     /// 用户登录管理器

@@ -12,7 +12,7 @@ using System.ComponentModel.DataAnnotations;
 using OSharp.Core.Data;
 
 
-namespace OSharp.Demo.Models.Identity
+namespace TG.UBP.Core.Entity.BaseManage.Identity
 {
     /// <summary>
     /// 实体类——用户扩展信息

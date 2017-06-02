@@ -8,11 +8,11 @@
 // -----------------------------------------------------------------------
 
 using OSharp.Core.Security;
-using OSharp.Demo.Dtos.OAuth;
-using OSharp.Demo.Models.OAuth;
+using TG.UBP.Application.Dto.BaseManage.OAuth;
+using TG.UBP.Core.Entity.BaseManage.OAuth;
 
 
-namespace OSharp.Demo.OAuth
+namespace TG.UBP.Core.Service.BaseManage.OAuth
 {
     /// <summary>
     /// 客户端存储实现

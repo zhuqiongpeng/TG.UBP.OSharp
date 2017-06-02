@@ -10,12 +10,12 @@
 using System;
 
 using OSharp.Core.Security;
-using OSharp.Demo.Dtos.Security;
-using OSharp.Demo.Models.Identity;
-using OSharp.Demo.Models.Security;
+using TG.UBP.Application.Dto.BaseManage.Security;
+using TG.UBP.Core.Entity.BaseManage.Identity;
+using TG.UBP.Core.Entity.BaseManage.Security;
 
 
-namespace OSharp.Demo.Security
+namespace TG.UBP.Core.Service.BaseManage.Security
 {
     /// <summary>
     /// 权限安全管理器

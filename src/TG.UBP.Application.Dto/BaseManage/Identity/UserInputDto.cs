@@ -8,11 +8,10 @@
 // -----------------------------------------------------------------------
 
 using System.ComponentModel.DataAnnotations;
-
 using OSharp.Core.Data;
 
 
-namespace OSharp.Demo.Dtos.Identity
+namespace TG.UBP.Application.Dto.BaseManage.Identity
 {
     /// <summary>
     /// 用户信息DTO

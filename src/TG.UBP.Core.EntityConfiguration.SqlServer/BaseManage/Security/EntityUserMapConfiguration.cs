@@ -8,10 +8,10 @@
 // -----------------------------------------------------------------------
 
 using OSharp.Data.Entity;
-using OSharp.Demo.Models.Security;
+using TG.UBP.Core.Entity.BaseManage.Security;
 
 
-namespace OSharp.Demo.ModelConfigurations.Security
+namespace TG.UBP.Core.EntityConfiguration.SqlServer.BaseManage.Security
 {
     /// <summary>
     /// 实体映射类——数据用户映射信息

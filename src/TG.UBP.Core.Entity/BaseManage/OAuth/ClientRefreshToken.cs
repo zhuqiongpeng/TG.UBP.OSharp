@@ -10,10 +10,10 @@
 using System;
 
 using OSharp.Core.Security.Models;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
 
-namespace OSharp.Demo.Models.OAuth
+namespace TG.UBP.Core.Entity.BaseManage.OAuth
 {
     /// <summary>
     /// 实体类——客户端刷新Token

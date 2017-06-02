@@ -13,7 +13,7 @@ using OSharp.Core.Logging;
 using OSharp.Utility.Data;
 
 
-namespace OSharp.Demo.Contracts
+namespace TG.UBP.Application.Service.BaseManage.Logging
 {
     /// <summary>
     /// 业务契约——日志模块

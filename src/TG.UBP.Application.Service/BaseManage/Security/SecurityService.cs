@@ -10,11 +10,9 @@ using System;
 
 using OSharp.Core.Data;
 using OSharp.Core.Security;
-using OSharp.Demo.Contracts;
-using OSharp.Demo.Security;
+using TG.UBP.Core.Service.BaseManage.Security;
 
-
-namespace OSharp.Demo.Services
+namespace TG.UBP.Application.Service.BaseManage.Security
 {
     /// <summary>
     /// 业务实现——功能模块

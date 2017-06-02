@@ -10,7 +10,7 @@
 using OSharp.Core.Security.Dtos;
 
 
-namespace OSharp.Demo.Dtos.Security
+namespace TG.UBP.Application.Dto.BaseManage.Security
 {
     /// <summary>
     /// 模块信息输入DTO

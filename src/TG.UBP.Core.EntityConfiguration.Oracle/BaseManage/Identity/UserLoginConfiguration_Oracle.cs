@@ -1,7 +1,7 @@
 ﻿using OSharp.Data.Entity;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
-namespace OSharp.Demo.ModelConfigurations_Oracle.Identity
+namespace TG.UBP.Core.EntityConfiguration.Oracle.BaseManage.Identity
 {
     public class UserLoginConfiguration_Oracle : EntityConfigurationBase<UserLogin, int>
     {

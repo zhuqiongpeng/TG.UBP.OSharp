@@ -10,7 +10,7 @@
 using OSharp.Core.Security.Dtos;
 
 
-namespace OSharp.Demo.Dtos.OAuth
+namespace TG.UBP.Application.Dto.BaseManage.OAuth
 {
     /// <summary>
     /// 输入DTO——OAuth客户端密钥

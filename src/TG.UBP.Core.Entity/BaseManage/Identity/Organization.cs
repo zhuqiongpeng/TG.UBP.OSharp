@@ -12,11 +12,10 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
-
 using OSharp.Core.Data;
 
 
-namespace OSharp.Demo.Models.Identity
+namespace TG.UBP.Core.Entity.BaseManage.Identity
 {
     /// <summary>
     /// 实体类——组织机构信息

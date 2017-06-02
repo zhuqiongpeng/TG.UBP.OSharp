@@ -8,10 +8,10 @@
 // -----------------------------------------------------------------------
 
 using OSharp.Data.Entity;
-using OSharp.Demo.Models.OAuth;
+using TG.UBP.Core.Entity.BaseManage.OAuth;
 
 
-namespace OSharp.Demo.ModelConfigurations.OAuth
+namespace TG.UBP.Core.EntityConfiguration.SqlServer.BaseManage.OAuth
 {
     public class ClientSecretConfiguration : EntityConfigurationBase<OAuthClientSecret, int>
     {

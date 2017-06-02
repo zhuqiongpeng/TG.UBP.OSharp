@@ -6,7 +6,7 @@
 //  <last-date>2015-03-24 17:02</last-date>
 // -----------------------------------------------------------------------
 
-namespace OSharp.Demo.ModelConfigurations.Identity
+namespace TG.UBP.Core.EntityConfiguration.SqlServer.BaseManage.Identity
 {
     public partial class RoleConfiguration
     {

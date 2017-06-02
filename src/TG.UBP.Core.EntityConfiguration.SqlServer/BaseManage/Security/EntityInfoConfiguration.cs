@@ -12,7 +12,7 @@ using OSharp.Data.Entity;
 using OSharp.Core.Security;
 
 
-namespace OSharp.Demo.ModelConfigurations.Security
+namespace TG.UBP.Core.EntityConfiguration.SqlServer.BaseManage.Security
 {
     /// <summary>
     /// 实体映射类——实体信息

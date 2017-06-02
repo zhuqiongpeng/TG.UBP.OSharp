@@ -10,11 +10,11 @@ using System.Linq;
 
 using OSharp.Core.Dependency;
 using OSharp.Core.Security;
-using OSharp.Demo.Dtos.Security;
+using TG.UBP.Application.Dto.BaseManage.Security;
 using OSharp.Utility.Data;
 
 
-namespace OSharp.Demo.Services
+namespace TG.UBP.Application.Service.BaseManage.Security
 {
     public partial class SecurityService
     {

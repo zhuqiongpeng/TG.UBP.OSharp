@@ -12,7 +12,7 @@ using System;
 using OSharp.Core.Security.Dtos;
 
 
-namespace OSharp.Demo.Dtos.Security
+namespace TG.UBP.Application.Dto.BaseManage.Security
 {
     /// <summary>
     /// 数据用户映射输入DTO

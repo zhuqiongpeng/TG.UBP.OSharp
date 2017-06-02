@@ -12,10 +12,10 @@ using System.ComponentModel;
 
 using OSharp.Core.Security;
 using OSharp.Core.Security.Models;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 
 
-namespace OSharp.Demo.Models.Security
+namespace TG.UBP.Core.Entity.BaseManage.Security
 {
     /// <summary>
     /// 实体类——数据角色映射信息

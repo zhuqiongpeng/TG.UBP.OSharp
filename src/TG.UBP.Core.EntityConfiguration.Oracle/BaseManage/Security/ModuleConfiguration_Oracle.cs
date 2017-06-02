@@ -1,12 +1,12 @@
 ﻿using OSharp.Data.Entity;
-using OSharp.Demo.Models.Security;
+using TG.UBP.Core.Entity.BaseManage.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OSharp.Demo.ModelConfigurations_Oracle.Security
+namespace TG.UBP.Core.EntityConfiguration.Oracle.BaseManage.Security
 {
     public class ModuleConfiguration_Oracle : EntityConfigurationBase<Module, int>
     {

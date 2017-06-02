@@ -4,8 +4,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OSharp.Data.Entity;
 
-namespace OSharp.Data.Entity.Oracle
+namespace TG.UBP.EntityFramework.Oracle
 {
     /// <summary>
     /// Oracle数据上下文初始化

@@ -1,12 +1,12 @@
 ﻿using OSharp.Data.Entity;
-using OSharp.Demo.Models.OAuth;
+using TG.UBP.Core.Entity.BaseManage.OAuth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OSharp.Demo.ModelConfigurations_Oracle.OAuth
+namespace TG.UBP.Core.EntityConfiguration.Oracle.BaseManage.OAuth
 {
     public class ClientConfiguration_Oracle : EntityConfigurationBase<OAuthClient, int>
     {

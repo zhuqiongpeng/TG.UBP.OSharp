@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OSharp.Demo.ModelConfigurations_Oracle.Security
+namespace TG.UBP.Core.EntityConfiguration.Oracle.BaseManage.Security
 {
     public class EntityInfoConfiguration_Oracle : EntityConfigurationBase<EntityInfo, Guid>
     {

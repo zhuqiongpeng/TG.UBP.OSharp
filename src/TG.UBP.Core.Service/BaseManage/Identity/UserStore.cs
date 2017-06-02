@@ -8,11 +8,11 @@
 // -----------------------------------------------------------------------
 
 using OSharp.Core.Identity;
-using OSharp.Demo.Models.Identity;
-using OSharp.Demo.Dtos.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
+using TG.UBP.Application.Dto.BaseManage.Identity;
 
 
-namespace OSharp.Demo.Identity
+namespace TG.UBP.Core.Service.BaseManage.Identity
 {
     /// <summary>
     /// 用户存储实现

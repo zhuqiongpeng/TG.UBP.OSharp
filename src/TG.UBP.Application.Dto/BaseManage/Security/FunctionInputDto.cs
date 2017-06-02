@@ -12,7 +12,7 @@ using System;
 using OSharp.Core.Security;
 
 
-namespace OSharp.Demo.Dtos.Security
+namespace TG.UBP.Application.Dto.BaseManage.Security
 {
     /// <summary>
     /// DTO——功能信息

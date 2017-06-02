@@ -1,12 +1,12 @@
 ﻿using OSharp.Data.Entity;
-using OSharp.Demo.Models.Identity;
+using TG.UBP.Core.Entity.BaseManage.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OSharp.Demo.ModelConfigurations_Oracle.Identity
+namespace TG.UBP.Core.EntityConfiguration.Oracle.BaseManage.Identity
 {
     public class UserClaimConfiguration_Oracle : EntityConfigurationBase<UserClaim, int>
     {

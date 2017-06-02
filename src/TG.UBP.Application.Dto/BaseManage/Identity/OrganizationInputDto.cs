@@ -8,11 +8,10 @@
 // -----------------------------------------------------------------------
 
 using System.ComponentModel.DataAnnotations;
-
 using OSharp.Core.Data;
 
 
-namespace OSharp.Demo.Dtos.Identity
+namespace TG.UBP.Application.Dto.BaseManage.Identity
 {
     public class OrganizationInputDto : IInputDto<int>
     {

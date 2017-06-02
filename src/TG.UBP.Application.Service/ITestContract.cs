@@ -1,7 +1,7 @@
 ﻿using OSharp.Core.Dependency;
 
 
-namespace OSharp.Demo.Contracts
+namespace TG.UBP.Application.Service
 {
     public interface ITestContract : IScopeDependency
     {

@@ -1,4 +1,5 @@
 ﻿using OSharp.Core.Logging;
+using OSharp.Data.Entity;
 using OSharp.Data.Entity.Logging;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OSharp.Data.Entity.Oracle.Logging
+namespace TG.UBP.Core.EntityConfiguration.Oracle.BaseManage.Logging
 {
     public class DataLogConfiguration_Oracle : EntityConfigurationBase<DataLog, int>
     {

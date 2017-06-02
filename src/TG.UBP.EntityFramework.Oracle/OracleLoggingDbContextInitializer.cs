@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OSharp.Data.Entity.Logging;
 
-namespace OSharp.Data.Entity.Oracle
+namespace TG.UBP.EntityFramework.Oracle
 {
     public class OracleLoggingDbContextInitializer : OracleDbContextInitializerBase<LoggingDbContext>
     {

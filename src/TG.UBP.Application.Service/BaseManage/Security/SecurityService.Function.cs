@@ -12,17 +12,15 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-
 using OSharp.Core.Dependency;
-using OSharp.Core.Mapping;
 using OSharp.Core.Security;
-using OSharp.Demo.Dtos.Security;
 using OSharp.Utility;
 using OSharp.Utility.Data;
 using OSharp.Utility.Extensions;
+using TG.UBP.Application.Dto.BaseManage.Security;
 
 
-namespace OSharp.Demo.Services
+namespace TG.UBP.Application.Service.BaseManage.Security
 {
     public partial class SecurityService
     {
