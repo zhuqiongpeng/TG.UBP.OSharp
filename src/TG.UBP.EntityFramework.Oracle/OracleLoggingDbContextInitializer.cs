@@ -16,7 +16,7 @@ namespace TG.UBP.EntityFramework.Oracle
         public OracleLoggingDbContextInitializer()
         {
             CreateDatabaseInitializer = MigrateInitializer
-                = new MigrateDatabaseToLatestVersion<LoggingDbContext, OracleMigrationsConfigurationWithSeedBase<LoggingDbContext>>();
+                = new MigrateDatabaseToLatestVersion<LoggingDbContext, OracleLoggingMigrationsConfiguration>();
         }
     }
 }

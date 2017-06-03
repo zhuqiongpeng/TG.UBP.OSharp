@@ -19,7 +19,7 @@ namespace TG.UBP.EntityFramework.Oracle
         public OracleDefaultDbContextInitializer()
         {
             CreateDatabaseInitializer = MigrateInitializer
-                = new MigrateDatabaseToLatestVersion<DefaultDbContext, OracleMigrationsConfigurationWithSeedBase<DefaultDbContext>>();
+                = new MigrateDatabaseToLatestVersion<DefaultDbContext, OracleDefaultMigrationsConfiguration>();
         }
     }
 }

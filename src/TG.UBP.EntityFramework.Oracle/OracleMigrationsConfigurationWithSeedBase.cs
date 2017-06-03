@@ -10,7 +10,7 @@ using OSharp.Data.Entity.Migrations;
 
 namespace TG.UBP.EntityFramework.Oracle
 {
-    public class OracleMigrationsConfigurationWithSeedBase<TContext> : MigrationsConfigurationWithSeedBase<TContext>
+    public abstract class OracleMigrationsConfigurationWithSeedBase<TContext> : MigrationsConfigurationWithSeedBase<TContext>
         where TContext : DbContext, IUnitOfWork
     {
         private const string ProviderName = "Devart.Data.Oracle";
@@ -25,12 +25,6 @@ namespace TG.UBP.EntityFramework.Oracle
             ContextKey = typeof(TContext).FullName;
 
             SetSqlGenerator(ProviderName, new Devart.Data.Oracle.Entity.Migrations.OracleEntityMigrationSqlGenerator());
-        }
-
-        protected override void Seed(TContext context)
-        {
-            base.Seed(context);
-            System.Diagnostics.Debug.WriteLine("OracleMigrationsConfigurationWithSeedBase");
         }
     }
 }

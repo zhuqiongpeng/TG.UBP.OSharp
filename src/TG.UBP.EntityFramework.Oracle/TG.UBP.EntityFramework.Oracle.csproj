@@ -53,8 +53,11 @@
   <ItemGroup>
     <Compile Include="OracleDbContextInitializerBase.cs" />
     <Compile Include="OracleDefaultDbContextInitializer.cs" />
+    <Compile Include="OracleDefaultMigrationsConfiguration.cs" />
+    <Compile Include="OracleDefaultMigrationsSeedAction.cs" />
     <Compile Include="OracleLoggingDbContextInitializer.cs" />
-    <Compile Include="OracleMigrationsConfiguration.cs" />
+    <Compile Include="OracleLoggingMigrationsConfiguration.cs" />
+    <Compile Include="OracleMigrationsConfigurationWithSeedBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -76,9 +79,17 @@
       <Project>{d58a373c-1a9c-4bf7-833d-427e4aef8502}</Project>
       <Name>OSharp.Data.Entity</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\osharp\src\OSharp.Permissions\OSharp.Permissions.csproj">
+      <Project>{e34d7585-25da-4622-9019-89dbc766ad67}</Project>
+      <Name>OSharp.Permissions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\osharp\src\OSharp.Utility\OSharp.Utility.csproj">
       <Project>{946e0a0a-8280-46b3-893e-1b00a554ccab}</Project>
       <Name>OSharp.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TG.UBP.Core.Entity\TG.UBP.Core.Entity.csproj">
+      <Project>{19b47751-385e-4236-8ebf-a37e0844b1ef}</Project>
+      <Name>TG.UBP.Core.Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
