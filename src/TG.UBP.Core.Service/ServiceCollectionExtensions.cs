@@ -14,7 +14,7 @@ namespace TG.UBP.Core.Service
 {
     public static class ServiceCollectionExtensions
     {
-        public static void AddDemoServices(this IServiceCollection services, IAppBuilder app)
+        public static void AddUBPCoreServices(this IServiceCollection services, IAppBuilder app)
         {
             //Identity
             services.AddScoped<RoleManager<Role, int>, BaseManage.Identity.RoleManager>();

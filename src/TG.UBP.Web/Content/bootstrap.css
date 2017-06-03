@@ -2487,7 +2487,7 @@ input[type="button"].btn-block {
   content: "\e013";
 }
 
-.glyphicon-remove:before {
+.glyphfa fa-trash:before {
   content: "\e014";
 }
 
@@ -2747,7 +2747,7 @@ input[type="button"].btn-block {
   content: "\e082";
 }
 
-.glyphicon-remove-sign:before {
+.glyphfa fa-trash-sign:before {
   content: "\e083";
 }
 
@@ -2767,7 +2767,7 @@ input[type="button"].btn-block {
   content: "\e087";
 }
 
-.glyphicon-remove-circle:before {
+.glyphfa fa-trash-circle:before {
   content: "\e088";
 }
 
@@ -3051,7 +3051,7 @@ input[type="button"].btn-block {
   content: "\e169";
 }
 
-.glyphicon-export:before {
+.glyphfa fa-external-link:before {
   content: "\e170";
 }
 
